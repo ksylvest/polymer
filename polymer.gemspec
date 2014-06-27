@@ -7,11 +7,11 @@ require "polymer/version"
 Gem::Specification.new do |s|
   s.name        = "polymer"
   s.version     = Polymer::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of Polymer."
-  s.description = "TODO: Description of Polymer."
+  s.authors     = ["Kevin Sylvestre"]
+  s.email       = ["kevin@ksylvest.com"]
+  s.homepage    = "http://github.com/ksylvest/polymer"
+  s.summary     = "An integration to the polymer project."
+  s.description = "An integration to the polymer project."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
